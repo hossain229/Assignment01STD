@@ -1,0 +1,206 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    color: #cccccc;
+}
+
+
+.navbar{
+    background-color: hsl(0, 0%, 0%);
+    
+}
+
+h1{
+    color: #09d9f5;
+    font-weight: 700;
+}
+
+.social_icons {
+    color: rgb(25, 170, 237) !important;
+    font-size: x-large;
+}
+
+.portfolio-title {
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+
+.project-card {
+    margin-bottom: 40px;
+}
+
+.project-description {
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.tech-tag-custom,
+.skill-tag-custom {
+    background-color: #4a4a4a;
+    font-weight: 500;
+}
+
+.tech-tag-custom {
+    font-size: 0.85rem;
+}
+
+.skill-tag-custom {
+    font-size: 0.9rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.skill-category-title {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.education-title {
+    font-size: 2rem;
+    color: #00bcd4 !important;
+}
+
+.education-details {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.contact-form-card {
+    max-width: 600px;
+}
+
+.form-control-custom {
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    color: #f0f0f0; 
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+}
+
+.form-control-custom::placeholder {
+    color: #ccc;
+}
+
+.form-control-custom:focus {
+    background-color: #4a4a4a;
+    border-color: #00bcd4;
+    box-shadow: 0 0 0 0.25rem rgba(0, 188, 212, 0.25);
+    color: #f0f0f0; 
+}
+
+.btn-send-custom {
+    background-color: #00bcd4;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-send-custom:hover {
+    background-color: #0097a7;
+    color: #ffffff;
+}
+
+.footer-section {
+    padding: 40px 0 20px;
+    font-size: 0.9rem;
+    margin-top: 60px;
+}
+
+.footer-social-icons a {
+    color: #cccccc;
+    font-size: 1.8rem;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-social-icons a:hover {
+    color: #00bcd4;
+}
+
+@media (max-width: 767.98px) {
+    .portfolio-title {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+
+    .project-title-text {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .project-description {
+        font-size: 0.95rem;
+    }
+
+    .tech-stack, .skill-tags {
+        justify-content: center;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .skill-category-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .education-title {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .education-details {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .contact-form-card {
+        padding: 20px;
+    }
+
+    .form-control-custom {
+        padding: 10px 12px;
+    }
+
+    .btn-send-custom {
+        padding: 10px 25px;
+    }
+
+    .footer-section {
+        margin-top: 40px;
+    }
+
+    .footer-social-icons a {
+        font-size: 1.5rem;
+        margin: 0 10px;
+    }
+}
